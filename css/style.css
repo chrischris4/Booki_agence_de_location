@@ -1,0 +1,867 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;600;700&display=swap');
+
+
+body
+{
+
+    margin: 0;
+    font-family: 'Raleway';
+}
+
+#containerAll
+{
+    font-family: 'Raleway';
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
+
+#imgTitre
+{
+    width: 61px;
+    height: 19px;
+}
+
+h1
+{
+    font-weight: 900;
+}
+
+#loc
+{
+    border-radius: 15px 0px 0px 15px;
+    padding: 16px 18px 16px 18px;
+    width: 14px;
+    height: 18px;
+    font-size: 20px;
+    color: black;
+    background-color: #F2F2F2;
+}
+
+i
+{
+    color: #0065FC;
+    font-size: 10px;
+}
+
+
+
+.starg
+{
+    color: #d9d9d9;
+    font-size: 10px;
+}
+
+.fa-money-bill-wave
+{
+    padding-right: 10px;
+    font-size: 20px;
+    color: #0065FC;
+}
+
+.fa-person
+{
+    padding-right: 10px;
+    font-size: 24px;
+    color: #0065FC;
+}
+
+.fa-heart
+{
+    padding-right: 10px;
+    font-size: 20px;
+    color: #0065FC;
+}
+
+.fa-dog
+{
+    padding-right: 10px;
+    font-size: 20px;
+    color: #0065FC;
+}
+
+.fa-star
+{
+    font-size: 11px;
+}
+
+.star
+{
+    letter-spacing: -2px;
+}
+
+#info
+{
+    padding: 4px 8px 4px 8px;
+    margin-right: 10px;
+    font-size: 10px;
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+nav ul
+{
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+nav a
+{
+    border-top: white solid 3px;
+    display: flex;
+    justify-content: center;
+    width: 162px;
+    font-size: 16px;
+    padding: 44px 0px 0px 0px;
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    border-top: solid #0065FC 3px;
+    color: #0065FC;
+}
+
+h1
+{
+    font-size: 22px;
+}
+
+#glass
+{
+    display: none;
+}
+
+#location
+{
+    border-top-width: 0px;
+    border-radius: 15px 0px 0px 15px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 49px;
+    align-items: center;
+}
+
+#ville
+{
+    height: 49px;
+    border: 1px solid #F2F2F2;
+    width: 230px;
+    font-weight: 900;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+#rechercher
+{
+    font-family: 'Raleway';
+    display: flex;
+    align-items: center;
+    padding: 15px 16px 15px 16px;
+    font-size: 16px;
+    font-weight: 900;
+    border-width: 0px;
+    color: white;
+    background-color: #0065FC;
+    width: 132px;
+    height: 49px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+
+button:hover
+{
+    background-color: #DEEBFF;
+}
+
+#filtres
+{
+    width: 90%;
+    font-weight: 900;
+    align-items: center;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pdevice
+{
+    display: flex;
+    align-items: center;
+}
+
+button
+{
+    font-family: 'Raleway';
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    padding: 4px 20px 4px 20px;
+    width: auto;
+    height: 50px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: #D9D9D9;
+    background-color: white;
+}
+
+#bloc
+{
+    display: grid;
+    column-gap: 2rem;
+    grid-template-columns: 6fr 3fr;
+}
+
+#titreh
+{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#marseille
+{
+    padding: 0px 30px 0px 30px;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    display: grid;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cardh a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.cardh
+{
+    background-color: white;
+    padding: 0.375rem;
+    border-radius: 1.25rem;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    box-sizing: border-box;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 #d1d1d1;
+}
+
+.imgh
+{
+    height: 7rem;
+    object-fit: cover;
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.containerh
+{
+    padding-top: 10px;
+    line-height: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 50px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+#aff
+{
+    margin-bottom: 46px;
+    font-size: 18px;
+    width: 100%;
+}
+
+#lpp a
+{
+    height: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.divImgLpp
+{
+position: relative;
+min-height: 100%;
+width: 33%;
+min-width: 33%;
+max-width: 33%;
+}
+
+#lpp
+{
+    display: grid;
+    row-gap: 2rem;
+    align-items: start;
+    grid-template-rows: auto repeat(3, 1fr);
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 0rem 2rem 2rem 2rem;
+}
+
+
+#ilpp
+{
+    padding-top: 27px;
+    font-size: 18px;
+}
+
+#titrelpp
+{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imglpp
+{
+    border-radius: 1rem 0 0 1rem;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cardlpp
+{
+    padding: 5px;
+    border-radius: 20px;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    box-shadow: 0 4px 8px 0 #D1D1D1;
+}
+
+.titreCardLpp
+{
+    line-height: 15px;
+}
+
+.containerlpp
+{
+    padding: 5px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
+.starlpp
+{
+    letter-spacing: -2px;
+}
+
+#activite a
+{
+    text-decoration: none;
+    color: black;
+}
+
+#activite
+{
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    margin: 2rem 0;
+    justify-content: space-between;
+}
+
+.cardactivite 
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 445px;
+    box-shadow: 0 4px 8px 0 #F2F2F2;
+    border-radius: 20px;
+}
+
+.imgactivite
+{
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px ;
+    width: 100%;
+    height: 383.25px;
+}
+
+.container 
+{
+    height: 50px;
+    padding-left: 20px;
+}
+
+
+footer a
+{
+    margin: 1rem 0;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+footer
+{
+    background-color: #F2F2F2;
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+    padding: 0 2rem;
+    box-sizing: border-box;
+}
+
+#nos,
+#assistance,
+#apropos
+{
+    width: 30%;
+    padding: 2rem 2rem;
+}
+
+
+@media screen and (max-width: 1440px){
+
+
+
+    #bloc
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #titrelpp
+{
+    grid-column: 1/-1;
+}
+
+    #lpp
+    {
+        margin-top: 50px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto 10rem;
+        column-gap: 2rem;
+        grid-row-start: 1;
+    }
+}
+
+
+
+
+@media screen and (max-width:768px){
+
+
+
+
+    #containerAll
+    {
+        font-family: 'Raleway';
+        padding-left: 0px;
+        padding-right: 0px;
+        width: auto;
+    }
+    
+    .fa-star
+    {
+        font-size: 16px;
+    }
+
+
+    .fa-money-bill-wave,
+    .fa-person,
+    .fa-heart,
+    .fa-dog
+    {
+        font-size: 22px;
+        padding: 0 0 0 10px;
+    }
+
+
+    h1
+    {
+        padding-left: 25px;
+        font-size: 22px;
+        font-weight: 900;
+    }
+
+    h2
+    {
+        font-size: 22px;
+        font-weight: 900;
+    }
+
+
+    
+    #loc
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+        height: 49px;
+        border-radius: 30px 0px 0px 30px;
+        font-size: 22px;
+        color: black;
+        background-color: #F2F2F2;
+    }
+    
+    #info
+    {
+        padding: 6px 14px 6px 14px;
+        margin-right: 20px;
+        font-size: 25px;
+        border: 1px solid #D9D9D9;
+        border-radius: 50%;
+    }
+    
+    header
+    {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    
+    nav
+    {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    nav ul
+    {
+        width: 100%;
+        padding-left: 0px;
+        margin: 0px;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+    }
+    
+
+    nav li
+    {
+        width: 50%;
+    }
+
+    nav a
+    {
+        width: 100%;
+        margin-top: 48.56px;
+        border-top: white solid 3px;
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+        padding: 0px 0px 23px 0px;
+        color: black;
+        text-decoration: none;
+        border-bottom: #F2F2F2 solid 3px;
+    }
+    
+    nav a:hover
+    {
+        border-top: none;
+        color: #0065FC;
+        border-bottom: solid #0065FC 3px;
+    }
+    
+    
+    #location
+    {
+        width: 100%;
+        border-top-width: 0px;
+        border-radius: 15px 15px 15px 15px;
+        margin-top: 80px;
+        display: flex;
+        flex-direction: row;
+        height: 50px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #ville
+    {
+        height: 81px;
+        border: 1px solid #F2F2F2;
+        width: 50%;
+        font-weight: 850;
+        font-size: 18px;
+        padding-left: 30px;
+    }
+    
+    #rechercher
+    {
+        font-family: 'Raleway';
+        display: flex;
+        align-items: center;
+        padding: 15px 16px 15px 16px;
+        font-size: 16px;
+        font-weight: 900;
+        border-width: 0px;
+        color: white;
+        background-color: #0065FC;
+        width: 20%;
+        height: 100px;
+        border-radius: 0px 15px 15px 0px;
+    }
+    
+
+
+    
+    button:hover
+    {
+        background-color: #DEEBFF;
+    }
+    
+    #titrefiltres
+    {
+        font-size: 22px;
+        grid-column: 1/-1;
+    }
+    
+    #ifiltres
+    {
+        padding-right: 5px;
+        padding-left: 13px;
+        font-size: 22px;
+    }
+
+
+    #filtres
+    {
+        width: inherit;
+        line-height: 1px;
+        height: 300px;
+        font-weight: 900;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 45% 45%;
+        column-gap: 50px;
+        padding: 25px;
+    }
+
+    button
+    {
+        font-family: 'Raleway';
+        font-size: 16px;
+        font-weight: 700;
+        height: 60px;
+        display: grid;
+        grid-template-columns: 25% 70%;
+        grid-template-rows: 100%;
+        column-gap: 5px;
+        border-radius: 50px;
+        text-align: left;
+        padding: 0px;
+    }
+    
+    .pdevice
+    {
+        margin-right: 25px;
+        display: flex;
+        align-items: flex-start;
+        margin-left: 25px;
+        font-size: 16px;
+        font-weight: 450;
+        margin-bottom: 20px;
+    }
+    
+    #rechercher
+        {
+            display: none;
+        }
+
+        #iglass
+        {
+            color: white;
+            font-size: 22px;
+        }
+        
+        #glass
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-width: 0px;
+            color: white;
+            background-color: #0065FC;
+            min-width: 86px;
+            height: 81px;
+            border-radius: 0px 30px 30px 0px;
+        }
+
+    
+    #bloc
+    {
+        grid-template-columns: 1fr;
+    }
+    
+    
+    #marseille
+    {
+        padding: 0;
+        order: 2;
+        border-radius: 0px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+
+    #titreh
+    {
+        font-size: 16px;
+        display: flex;
+        align-items: flex-start;
+        width: 90%;
+    }
+    
+    .cardh
+    {
+        font-size: 16px;
+        border-radius: 20px;
+        width: 90%;
+        background-color: white;
+        margin: 0px;
+        box-shadow: 0 4px 8px 0 #d1d1d1;
+    
+    }
+    
+    
+    .containerh
+    {
+        font-size: 16px;
+        line-height: 5px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 50px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    
+    #aff
+    {
+        display: none;
+    }
+    
+    #lpp
+    {
+        grid-template-rows: auto 10rem 10rem 10rem;
+        grid-template-columns: 1fr;
+        border-radius: 0px;
+    }
+
+    .cardlpp
+    {
+        padding: 5px;
+        font-size: 16px;
+        border-radius: 20px;
+        height: 100%;
+        box-shadow: 0 4px 8px 0 #d1d1d1;
+    }
+
+    .titreCardLpp
+    {
+        line-height: 20px;
+    }
+    
+    
+    #titreactivite
+    {
+        padding-top: 80px;
+        font-size: 22px;
+        width: 35%;
+        padding-left: 30px;
+    }
+
+    #activite
+    {
+        display: grid;
+        grid-template-columns: 90%;
+        row-gap: 20px;
+        justify-content: center;
+    }
+    
+    .cardactivite 
+    {
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        height: 14rem;
+    }
+
+    .cardactiviteWrapimg {
+        position: relative;
+        flex: 1;
+    }
+    
+    .imgactivite
+    {
+        object-fit: cover;
+        border-radius: 20px 20px 0px 0px ;
+        height: auto;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .container 
+    {
+        height: 25%;
+        font-size: 16px;
+    }
+    
+    
+    footer
+    {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+#nos,
+#assistance,
+#apropos
+{
+    width: inherit;
+    max-width: 100%;
+    padding-right: 0px;
+    padding-left: 25px;
+}
+
+}
