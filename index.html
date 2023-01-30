@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,13 +26,15 @@
     </header>
 
     <h1>Trouver votre hébergement pour des vacances de rêve</h1>
-    <p class="pdevice">En plein centre-ville ou en pleine nature</p>
+    <p id="paragraphe" class="pdevice">En plein centre-ville ou en pleine nature</p>
 
     <div id="location">
-    <i id="loc" class="fa-solid fa-location-dot"></i>
+    <form method="get" action="">
+        <label for="loc"><i id="loc" class="fa-solid fa-location-dot"></i></label>
             <input type="search" name="ville" id="ville" value="Marseille, France">
             <input id="rechercher" type="submit" value="Rechercher">
             <button id="glass"><i id="iglass" class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
     </div>
 
     <div id="filtres">
@@ -48,7 +50,7 @@
 <p class="pdevice"> <i id="info" class="fa-solid fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
 
 
-<section id="bloc">
+<div id="bloc">
     <article id="marseille">
         <div id="titreh"><h2>Hébergements à Marseille</h2>
         </div>
@@ -227,7 +229,7 @@
                 </div>
             </a>
     </aside>
-    </section>
+</div>
 
 <div id="titreactivite">
     <h2>Activités à Marseille</h2>
@@ -280,18 +282,18 @@
 
     <footer>
         <div id="apropos">
-                <strong><h3> A propos</h3></strong>
+                <h3> A propos</h3>
                 <a href="#">Fonctionnement du site</a>
                 <a href="#">Conditions générales</a>
                 <a href="#">Données et confidentialité</a>
         </div>
         <div id="nos">
-                <strong><h3> Nos hébergements </h3></strong>
+                <h3> Nos hébergements </h3>
                 <a href="#">Chartes qualité</a>
                 <a href="#">Proposer votre hôtel</a>
         </div>
         <div id="assistance">
-                <strong><h3>Assistance</h3></strong>
+                <h3>Assistance</h3>
                 <a href="#">Centre d'aide</a>
                 <a href="#">Nous contacter</a>
         </div>

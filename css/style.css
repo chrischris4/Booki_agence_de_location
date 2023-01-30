@@ -8,6 +8,14 @@ body
     font-family: 'Raleway';
 }
 
+form
+{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
 #containerAll
 {
     font-family: 'Raleway';
@@ -16,6 +24,8 @@ body
     padding: 0 2rem;
     box-sizing: border-box;
 }
+
+
 
 #imgTitre
 {
@@ -594,16 +604,16 @@ footer
     }
     
     
+
     #location
     {
-        width: 100%;
+        padding: 0px 50px 0px 50px;
         border-top-width: 0px;
         border-radius: 15px 15px 15px 15px;
         margin-top: 80px;
         display: flex;
         flex-direction: row;
         height: 50px;
-        width: 100%;
         align-items: center;
         justify-content: center;
     }
@@ -612,7 +622,7 @@ footer
     {
         height: 81px;
         border: 1px solid #F2F2F2;
-        width: 50%;
+        width: 70%;
         font-weight: 850;
         font-size: 18px;
         padding-left: 30px;
@@ -784,6 +794,14 @@ footer
         grid-template-columns: 1fr;
         border-radius: 0px;
     }
+
+    .divImgLpp
+{
+
+width: 45%;
+min-width: 45%;
+max-width: 45%;
+}
 
     .cardlpp
     {
